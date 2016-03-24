@@ -1,0 +1,122 @@
+body {
+    padding-top: 50px;
+}
+
+.em-text{
+    color:#1caa98 !important;
+}
+
+.jumbotron {
+    background-color: darkgray;
+    backface-visibility: visible;
+    height: 500px;
+    overflow: none;
+    background-size: cover;
+    color: black;
+    
+}
+
+.jumbotron h1 {
+    margin-top: 60px;
+}
+
+.jumbotron p {
+    margin-bottom: 60px;
+}
+
+
+.jumbotron .app-btn {
+    width: 40%;
+    margin-right:"30px";
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-top:80px;
+    position: static;
+    margin-right: 10px;
+    position: center;
+    
+}
+#middle {
+   margin-bottom: 30px;
+}
+
+.imgdemo {
+    width: 100%;
+    height: 100%;
+
+}
+
+#feature {
+    height:400px;
+    background-color:#1caa98;
+}
+
+#feature h1 {
+    margin-top: 40px;
+}
+
+#feature  ul li{
+    list-style: none;
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.logo {
+    margin-top: 30px;
+    width: 50%;
+}
+
+
+
+.copy {
+    margin-top: 25px;
+    float: right;
+}
+
+.medal {
+    margin-bottom: 120px;
+}
+
+#titleBar {
+    padding: 0;
+    margin: 0;
+    height:80px;
+    background-color:#1caa98;
+    color:#fff;
+}
+
+#titleBar h1 {
+    margin-bottom: 20px;
+}
+
+#about {
+    margin-top: 40px;
+}
+
+#accordion {
+    margin-top: 30px;
+}
+
+#contact {
+    margin-top: 80px;
+}
+
+footer {
+    background-color:darkgray;
+    color: white;
+    padding:30px 0 20px 0;
+}
+
+footer li {
+    float: left;
+    padding:20px;
+    list-style: none;
+}
+

@@ -1,0 +1,231 @@
+header {
+    background-image: linear-gradient(#04519b, #044687.60%, #033769);
+    color:#fff;
+    min-height: 100px;
+    padding-top: 25px;
+}
+
+header form {
+    float: right;
+}
+
+h1 {
+    float: left;
+}
+
+.con {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    color: yellow;
+}
+
+.kunta{
+   text-transform: uppercase;
+}
+
+.rem {
+    margin-top: 10px;
+}
+
+.panel-heading {
+    background-image: linear-gradient(#04519b, #044687.60%, #033769);
+    color: #fff !important;
+
+}
+
+.bubble {
+    position: relative;
+    width: 580px;
+    min-height: 65px;
+    padding: 15px;
+    background:#fff;
+    border-radius:10px;
+    border: 1px solid #ccc;
+}
+
+.bubble:after {
+    content:'';
+    position:absolute;
+    border-style: solid;
+    border-width:15px 15px 15px 0;
+    border-color: transparent #fff;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: 16px;
+    left: -15px;
+    top:50%;
+}
+
+.bubble:before {
+    content:'';
+    position:absolute;
+    border-style: solid;
+    border-width:15px 15px 15px 0;
+    border-color: transparent #ccc;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: 15px;
+    left: -15px;
+    top:50%;
+}
+
+.post-action {
+    margin:5px;
+}
+
+.comment-form textarea {
+    width:100%;
+}
+
+.comment {
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:3px;
+    margin:5px 0;
+    overflow: auto;
+    width: 100%; 
+
+}
+
+.post {
+    margin-top: 10px;
+}
+
+.comment-avatar img {
+    width:40px;
+    margin:-right:10px;
+}
+
+.friends li {
+    list-style: none;
+    padding:5px 0px 0px;
+    display: inline;
+    float: left;
+}
+
+.friends img {
+    width: 55px;
+}
+
+.group-item img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.group-item{
+    padding-bottom:10px;
+    margin-bottom: 20px;
+    margin-bottom: 1px solid #ccc;
+    overflow: auto;
+}
+
+.members {
+    margin-top: 50px;
+}
+
+
+.members-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.members img {
+    margin-bottom: 5px; 
+
+}
+
+.groups {
+     margin-top: 100px;
+     float: left;
+
+
+}
+
+.groups img {
+    
+    width: 100px
+}
+
+.ghead {
+    margin-bottom: 30px;
+}
+
+.profile {
+    margin-top: 100px;
+}
+
+.profile img {
+
+      margin-top: 10px;
+      float: left;
+}
+
+.profile ul{
+    margin-top: 30px;
+
+}
+
+.profile ul li {
+    list-style: none;
+    line-height: 1.9em;
+}
+
+.photos {
+    margin:0;
+    padding:0;
+}
+
+
+.photos li {
+    list-style: none;
+    float: left;
+    margin:5px;
+    width: 23%
+}
+
+.photos img {
+    width: 100%;
+}
+
+.main-photos {
+    margin-top:90px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color:#f4f4f4;
+    height:90px;
+    color: #04519b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    margin-top:30px;
+    border-top:7px solid #04519b;
+}
+
+
+
+@media(min-width: 991px ) {
+
+        .members p {
+            padding-top:40px;
+        }
+
+}
+
+
+
+
+
